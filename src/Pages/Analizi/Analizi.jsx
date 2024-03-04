@@ -22,7 +22,7 @@ const Analizi = () => {
   };
   let [lng, setLng] = useState("en");
   return (
-    <div className="bg-white">
+    <div className="bg-white dark:text-white dark:bg-slate-900">
       <section className="flex w-[90%] m-auto justify-between h-[600px]">
         <div className="w-[45%] h-[100%]">
           <Card2
@@ -49,7 +49,7 @@ const Analizi = () => {
           />
         </div>
       </section>
-      <section className="w-[100%] h-[500px] flex items-center justify-center ">
+      <section className="w-[100%] h-[500px] flex items-center justify-center dark:text-white dark:bg-slate-900 ">
         <div className="w-[90%] h-[90%]">
           <h1 className="text-[35px] m-auto">Как получить лечение?</h1>
           <div className="flex justify-between mt-5 ">
@@ -145,7 +145,7 @@ const Analizi = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#F1F5F8] h-[800px] flex justify-center items-center">
+      <section className="bg-[#F1F5F8] h-[800px] flex justify-center items-center dark:text-white dark:bg-slate-900">
         <div className="w-[90%] h-[80%] ">
           <h1 className="text-[35px]">{t("home.sec10.text1")}</h1>
           <div className="flex justify-between flex-wrap mt-10">

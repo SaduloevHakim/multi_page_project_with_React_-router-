@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, NavLink, Outlet } from "react-router-dom";
+import Switcher from "../components/Switcher";
 
 const Layout = () => {
   const [t, i18n] = useTranslation();
@@ -11,16 +12,16 @@ const Layout = () => {
   let [lng, setLng] = useState("en");
   return (
     <>
-      <header className="w-full h-[130px] border bg-white ">
+      <header className="w-full h-[130px] border bg-white dark:bg-gray-900  ">
         <div className=" w-[90%] h-[50px] m-auto flex items-center justify-between ">
           <p className="text-[#686868]">{t("nav1.text1")}</p>
           <p className="text-[#686868]">{t("nav1.text2")}</p>
-          <div className="w-[310px] flex justify-between">
+          <div className="w-[340px] flex justify-between items-center">
             <button className="bg-[#3BB96D] w-[200px] h-[30px] rounded-2xl text-white">
               {t("nav1.btn")}
             </button>
             <select
-              className="border w-[70px] rounded text-center "
+              className="border w-[70px] h-[35px] rounded text-center "
               value={lng}
               onChange={(ev) => {
                 changeLanguage(ev.target.value), setLng(ev.target.value);
@@ -29,9 +30,10 @@ const Layout = () => {
               <option value="ru">En</option>
               <option value="en">Ru</option>
             </select>
+            <Switcher />
           </div>
         </div>
-        <nav className="w-[90%] m-auto h-[70px]  flex items-center justify-between ">
+        <nav className="w-[90%] m-auto h-[70px]  flex items-center justify-between dark:text-white ">
           <Link to={"/"}>
             <img src="src/assets/logo.png" alt="" />
           </Link>

@@ -18,8 +18,8 @@ const Okliniki = () => {
   };
   let [lng, setLng] = useState("en");
   return (
-    <div className="bg-white">
-      <section className="w-[100%] h-[500px] bg-[#F1F5F8] flex items-center justify-center">
+    <div className="bg-white dark:text-white dark:bg-slate-900">
+      <section className="w-[100%] h-[500px] bg-[#F1F5F8] flex items-center justify-center dark:text-white dark:bg-slate-900">
         <div className="w-[80%] h-[80%] flex flex-col justify-center">
           <h1 className="text-[30px] font-bold">О клинике</h1>
           <p className="text-[gray] w-[90%]">
@@ -42,7 +42,7 @@ const Okliniki = () => {
       </section>
       <section className="w-[100%] h-[700px] ">
         <div className="flex items-center w-[80%] m-auto">
-          <img src={i2022} alt="" />
+          <img src={i2019} alt="" />
           <p className="text-[gray] w-[60%] ml-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu
             adipiscing amet habitant laoreet dui at at. Felis et duis erat
@@ -87,7 +87,7 @@ const Okliniki = () => {
           </p>
         </div>
         <div className="flex items-center w-[80%] m-auto">
-          <img src={i2022} alt="" />
+          <img src={i2021} alt="" />
           <p className="text-[gray] w-[60%] ml-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu
             adipiscing amet habitant laoreet dui at at. Felis et duis erat
@@ -153,7 +153,7 @@ const Okliniki = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#F1F5F8] h-[800px] flex justify-center items-center">
+      <section className="bg-[#F1F5F8] h-[800px] flex justify-center items-center dark:text-white dark:bg-slate-900">
         <div className="w-[90%] h-[80%] ">
           <h1 className="text-[35px]">{t("home.sec10.text1")}</h1>
           <div className="flex justify-between flex-wrap mt-10">

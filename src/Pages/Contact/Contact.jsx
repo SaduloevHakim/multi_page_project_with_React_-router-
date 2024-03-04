@@ -13,8 +13,8 @@ const Contact = () => {
     let [lng, setLng] = useState("en");
   return (
     <>
-      <section className="h-[600px] flex">
-        <div className="w-[40%] bg-black flex items-center justify-center text-white">
+      <section className="h-[600px] flex dark:text-white dark:bg-slate-900">
+        <div className="w-[40%] bg-black flex items-center justify-center text-white ">
           <div className="w-[80%] h-[80%]">
             <h1 className="text-[35px]">Наши контакты</h1>
             <p>
@@ -43,10 +43,10 @@ const Contact = () => {
           <img className="w-full h-full" src={img1} alt="" />
         </div>
       </section>
-      <section className="h-[100px] flex items-end  bg-[#F1F5F8]">
+      <section className="h-[100px] flex items-end  bg-[#F1F5F8] dark:text-white dark:bg-slate-900">
         <h1 className="text-[35px] w-[90%] h-[0] m-auto">Наши специалисты</h1>
       </section>
-      <section className="bg-[#F1F5F8] h-[1400px] flex items-center justify-center">
+      <section className="bg-[#F1F5F8] h-[1400px] flex items-center justify-center dark:text-white dark:bg-slate-900">
         <div className="w-[90%] h-[90%] flex justify-between flex-wrap">
           <div className="w-[300px] h-[400px] border flex flex-col justify-between">
             <img className="w-full h-[280px]" src={img2} alt="" />
@@ -146,7 +146,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <section className="w-[100%] bg-white m-auto h-[600px] flex items-center justify-center ">
+      <section className="w-[100%] bg-white m-auto h-[600px] flex items-center justify-center dark:text-white dark:bg-slate-900 ">
         <div className="w-[80%] h-[60%] bg-[#272727] rounded-3xl flex items-center justify-between">
           <div className="w-[53%] text-white">
             <h1 className="text-[35px] w-[90%] m-auto">

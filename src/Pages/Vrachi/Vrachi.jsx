@@ -13,7 +13,7 @@ const Vrachi = () => {
   };
   let [lng, setLng] = useState("en");
   return (
-    <div className="bg-white">
+    <div className="bg-white dark:text-white dark:bg-slate-900">
       <div className="w-[90%] m-auto">
         <Link
           to={"/"}

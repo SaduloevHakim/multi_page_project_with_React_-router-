@@ -1,6 +1,6 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-  import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 // Import Swiper styles
 import "swiper/css";
@@ -99,31 +99,35 @@ const Home = () => {
           </SwiperSlide>
         </Swiper>
       </div>
-      <section className="w-[90%] m-auto h-[550px] flex items-center justify-center  ">
-        <div className="w-[50%] h-[80%] flex flex-col justify-center">
-          <h1 className="font-bold text-[40px] ">{t("home.sec2.text1")}</h1>
-          <p>{t("home.sec2.text2")}</p>
-          <p className="mt-5"> {t("home.sec2.text2")}</p>
-        </div>
-        <div className="w-[45%] h-[70%]">
-          <img className="w-full h-full" src={img2} alt="" />
-        </div>
-      </section>
-      <section className="w-[90%] h-[550px] m-auto ">
-        <div className="w-full flex justify-between items-center ">
-          <h1 className="text-[40px]">{t("home.sec3.text1")}</h1>
-          <button className="bg-[#3BB96D] text-white w-[220px] h-[40px] rounded-full">
-            {t("home.sec3.btn")}
-          </button>
-        </div>
-        <div className="w-full flex justify-between mt-10">
-          <Card img={img3} p1={t("home.sec3.p1")} p2={t("home.sec3.text2")} />
-          <Card img={img4} p1={t("home.sec3.p2")} p2={t("home.sec3.text2")} />
-          <Card img={img5} p1={t("home.sec3.p3")} p2={t("home.sec3.text2")} />
-          <Card img={img6} p1={t("home.sec3.p4")} p2={t("home.sec3.text2")} />
-        </div>
-      </section>
-      <section className="w-full h-[900px] bg-[#F1F5F8] flex flex-col ">
+      <div className="dark:text-white dark:bg-slate-900">
+        <section className="w-[90%] m-auto h-[550px] flex items-center justify-center   ">
+          <div className="w-[50%] h-[80%] flex flex-col justify-center">
+            <h1 className="font-bold text-[40px] ">{t("home.sec2.text1")}</h1>
+            <p>{t("home.sec2.text2")}</p>
+            <p className="mt-5"> {t("home.sec2.text2")}</p>
+          </div>
+          <div className="w-[45%] h-[70%]">
+            <img className="w-full h-full" src={img2} alt="" />
+          </div>
+        </section>
+      </div>
+      <div className="dark:text-white dark:bg-slate-900">
+        <section className="w-[90%] h-[550px] m-auto dark:text-white dark:bg-slate-900 ">
+          <div className="w-full flex justify-between items-center ">
+            <h1 className="text-[40px]">{t("home.sec3.text1")}</h1>
+            <button className="bg-[#3BB96D] text-white w-[220px] h-[40px] rounded-full">
+              {t("home.sec3.btn")}
+            </button>
+          </div>
+          <div className="w-full flex justify-between mt-10">
+            <Card img={img3} p1={t("home.sec3.p1")} p2={t("home.sec3.text2")} />
+            <Card img={img4} p1={t("home.sec3.p2")} p2={t("home.sec3.text2")} />
+            <Card img={img5} p1={t("home.sec3.p3")} p2={t("home.sec3.text2")} />
+            <Card img={img6} p1={t("home.sec3.p4")} p2={t("home.sec3.text2")} />
+          </div>
+        </section>
+      </div>
+      <section className="w-full h-[900px] bg-[#F1F5F8] flex flex-col dark:text-white dark:bg-slate-900 ">
         <div className="w-[90%] h-[100px] m-auto flex justify-between items-center ">
           <h1 className="text-[40px]">{t("home.sec4.text1")}</h1>
           <img src={Скрол} alt="" />
@@ -176,7 +180,7 @@ const Home = () => {
           </button>
         </div>
       </section>
-      <section className=" w-full h-[600px] ">
+      <section className=" w-full h-[600px] dark:text-white dark:bg-slate-900 ">
         <div className="w-[90%] m-auto flex justify-between">
           <h1 className="text-[35px]">{t("home.sec5.text1")}</h1>
           <div className=""></div>
@@ -254,7 +258,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="w-full h-[900px] bg-[#F1F5F8] flex items-center justify-center">
+      <section className="w-full h-[900px] bg-[#F1F5F8] flex items-center justify-center dark:text-white dark:bg-slate-900 ">
         <div className="w-[90%] h-[80%] ">
           <div className="w-[100%] flex m-auto justify-between ">
             <h1 className="text-[35px]">{t("home.sec6.text1")}</h1>
@@ -288,14 +292,14 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="w-full h-[900px] flex justify-center items-center  ">
+      <section className="w-full h-[900px] flex justify-center items-center dark:text-white dark:bg-slate-900 ">
         <div className="w-[90%] h-[80%]  ">
           <div className="">
             <h1 className="font-bold text-[35px]">{t("home.sec7.text1")}</h1>
             <h1></h1>
           </div>
           <div className="w-full flex justify-between mt-5 ">
-            <div className="w-[360px]  h-[480px] bg-[#F4F6FA] rounded-2xl   ">
+            <div className="w-[360px]  h-[480px] bg-[#F4F6FA] rounded-2xl dark:text-white dark:bg-slate-950  ">
               <img className="w-[70%] m-auto" src={img8} alt="" />
               <div className="w-full h-[200px]  flex flex-col justify-between">
                 <p className="font-bold text-[17px] w-[90%] m-auto">
@@ -308,7 +312,7 @@ const Home = () => {
                 <p className="w-[90%] m-auto">{t("home.sec7.text7")}</p>
               </div>
             </div>
-            <div className="w-[360px]  h-[480px] bg-[#F4F6FA] rounded-2xl  ">
+            <div className="w-[360px]  h-[480px] bg-[#F4F6FA] rounded-2xl dark:text-white dark:bg-slate-950 ">
               <img className="w-[70%] m-auto" src={img11} alt="" />
               <div className="w-full h-[200px]  flex flex-col justify-between">
                 <p className="font-bold text-[17px] w-[90%] m-auto">
@@ -321,7 +325,7 @@ const Home = () => {
                 <p className="w-[90%] m-auto">{t("home.sec7.text7")}</p>
               </div>
             </div>
-            <div className="w-[360px]  h-[480px] bg-[#F4F6FA] rounded-2xl  ">
+            <div className="w-[360px]  h-[480px] bg-[#F4F6FA] rounded-2xl dark:text-white dark:bg-slate-950 ">
               <img className="w-[70%] m-auto" src={img12} alt="" />
               <div className="w-full h-[200px]  flex flex-col justify-between">
                 <p className="font-bold text-[17px] w-[90%] m-auto">
@@ -337,14 +341,14 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="w-full h-[900px] flex items-center justify-center">
+      <section className="w-full h-[900px] flex items-center justify-center dark:text-white dark:bg-slate-900">
         <div className="w-[90%] h-[80%] ">
           <h1 className="font-bold text-[35px]">{t("home.sec8.text1")}</h1>
-          <div className="w-[100%] h-[500px]  rounded-lg bg-[#F4F6FA] flex items-center justify-center ">
-            <div className="w-[48%] h-[90%]">
-              <p className="h-[50px]  text-[#3BB96D]  bg-white flex items-center">
+          <div className="w-[100%] h-[500px] dark:text-white dark:bg-slate-950  rounded-lg bg-[#F4F6FA] flex items-center justify-center ">
+            <div className="w-[48%] h-[90%] ">
+              <p className="h-[50px] dark:text-white dark:bg-slate-800 text-[#3BB96D]  bg-white flex items-center">
                 {" "}
-                <span className="font-bold text-[18px] text-[#3BB96D] mr-2 ">
+                <span className="font-bold text-[18px] text-[#3BB96D] mr-2 dark:text-white">
                   01
                 </span>
                 {t("home.sec8.text2")}
@@ -406,7 +410,7 @@ const Home = () => {
                 {t("home.sec8.text10")}
               </p>
             </div>
-            <div className="w-[48%] h-[90%] bg-white rounded-lg">
+            <div className="w-[48%] h-[90%] bg-white rounded-lg dark:text-white dark:bg-slate-800">
               <h1 className="text-[30px] font-bold w-[90%] m-auto ">
                 {t("home.sec8.text2")}
               </h1>
@@ -442,10 +446,10 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="w-[100%] h-[500px] flex items-center justify-center">
-        <div className="w-[90%] h-[90%]">
+      <section className="w-[100%] h-[500px] flex items-center  justify-center dark:text-white dark:bg-slate-900">
+        <div className="w-[90%]  h-[90%]  ">
           <h1 className="text-[35px]">{t("home.sec9.text1")}</h1>
-          <div className="w-[100%] flex justify-between">
+          <div className="w-[100%]  flex justify-between">
             <img src={img14} alt="" />
             <img src={img14} alt="" />
             <img src={img14} alt="" />
@@ -453,7 +457,7 @@ const Home = () => {
             <img src={img14} alt="" />
             <img src={img14} alt="" />
           </div>
-          <div className="w-[100%] flex justify-between">
+          <div className="w-[100%] flex justify-between mt-3">
             <img src={img14} alt="" />
             <img src={img14} alt="" />
             <img src={img14} alt="" />
@@ -463,7 +467,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#F1F5F8] h-[800px] flex justify-center items-center">
+      <section className="bg-[#F1F5F8] h-[800px] flex justify-center items-center dark:text-white dark:bg-slate-900">
         <div className="w-[90%] h-[80%] ">
           <h1 className="text-[35px]">{t("home.sec10.text1")}</h1>
           <div className="flex justify-between flex-wrap mt-10">

@@ -11,7 +11,7 @@ const Otziv = () => {
   };
   let [lng, setLng] = useState("en");
   return (
-    <div className="bg-white">
+    <div className="bg-white dark:text-white dark:bg-slate-900">
       <section className="w-[100%] h-[2100px] flex items-center justify-center">
         <div className="w-[90%] h-[80%]">
           <div className="flex w-[87%] m-auto justify-between items-center">

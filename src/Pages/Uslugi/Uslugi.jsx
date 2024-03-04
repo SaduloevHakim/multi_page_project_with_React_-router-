@@ -7,7 +7,7 @@ import img6 from "./images/img6.jpg";
 
 const Uslugi = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white dark:text-white dark:bg-slate-900">
       <h1 className="w-[90%] m-auto text-[35px]">Направления нашей работы</h1>
       <section className="w-[90%] m-auto flex justify-between flex-wrap gap-7 mt-10 ">
         <div className="w-[270px] h-[300px] border">
@@ -125,7 +125,7 @@ const Uslugi = () => {
               Записаться на приём
             </button>
           </div>
-          <p className="mt-5"> 
+          <p className="mt-5">
             Нажимая на кнопку Записаться на приём вы соглашаетесь с политикой
             конфиденциальности
           </p>
