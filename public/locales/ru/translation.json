@@ -1,0 +1,150 @@
+{
+  "nav1": {
+    "text1": "Network of clinics in the Tomsk region",
+    "text2": "Version for the visually impaired",
+    "btn": "Make an appointment"
+  },
+  "nav2": {
+    "vrachi": "Doctors",
+    "uslugi": "Services",
+    "diagn": "Diagnostics",
+    "analis": "Analyzes",
+    "aksi": "Stock",
+    "pasient": "For patients",
+    "oklini": "About the clinic",
+    "otziv": "Reviews",
+    "contact": "Contacts"
+  },
+  "footer": {
+    "box1": {
+      "text1": "Address",
+      "text2": "Moscow, st. Pushkina, 43",
+      "text3": "Telephone",
+      "text4": "+7 (9__) ___-__-__",
+      "text5": "Mail",
+      "text6": "Poshta@gmail.com"
+    },
+    "box2": {
+      "text1": "About the clinic",
+      "text2": "Menu item name"
+    },
+    "box3": {
+      "text1": "Doctor",
+      "text2": "Menu item name"
+    },
+    "box4": {
+      "text1": "For patients",
+      "text2": "Menu item name"
+    },
+    "box5": {
+      "text1": "Services",
+      "text2": "Menu item name"
+    }
+  },
+  "home": {
+    "sec1": {
+      "text1": "A doctor is your reliable partner in caring for your health! ",
+      "text2": "Feel the care and attention from our experienced doctors. Professional medical care, accurate diagnoses and effective treatment. The health of your family is in good hands. Make an appointment now!",
+      "btn": "More details"
+    },
+    "sec2": {
+      "text1": "A little about us",
+      "text2": "You will find modern equipment and advanced treatment methods at our center, allowing us to achieve the best results. We value each patient and strive to create a cozy and friendly atmosphere so that you feel comfortable and confident during your visit to our center.",
+      "text3": "Our goal is to help you maintain and improve your health by providing a comprehensive approach to solving medical problems. We are ready to offer you consultations with specialists from various fields, laboratory and instrumental investigations, medication treatment, and physiotherapy procedures."
+    },
+    "sec3": {
+      "text1": "Directions of our work.",
+      "btn": "All directions",
+      "p1": "Gynecology",
+      "p2": "Urology",
+      "p3": "Otolaryngology",
+      "p4": "Neurology",
+      "text2": "More details"
+    },
+    "sec4": {
+      "text1": "Our specialists",
+      "p1": "Ivanov Ivan Ivanovich",
+      "p2": "Urologist",
+      "btn": "Make an appointment",
+      "btn2": "All specialists"
+    },
+    "sec5": {
+      "text1": "Our promotions",
+      "text2": "-20% discount on MRI",
+      "text3": "Here you will find modern equipment and advanced treatment techniques that allow you to achieve the best results. We value every patient and strive to create a cozy and friendly atmosphere so that you feel comfortable and confident while visiting our center.",
+      "text4": "The promotion is valid until ",
+      "btn": "More details"
+    },
+    "sec6": {
+      "text1": "Hospital",
+      "text2": "Well-equipped operating rooms",
+      "text3": "Full control over the patient's condition",
+      "text4": "Comfort and care after surgery",
+      "text5": "Here you will find modern equipment and advanced treatment techniques that allow you to achieve the best results. We value every patient and strive to create a cozy and friendly atmosphere so that you feel comfortable and confident while visiting our center and advanced treatment techniques that allow you to achieve the best results. We value every patient and strive to create and advanced treatment techniques that allow you to achieve the best results. We value every patient and strive to create",
+      "text6": "Our goal is to help you maintain and improve your health by providing a comprehensive approach to solving medical problems. We are ready to offer you consultations with specialists in various fields, laboratory and instrumental studies, drug treatment and physiotherapeutic procedures.",
+      "btn": "More details"
+    },
+    "sec7": {
+      "text1": "Our equipment",
+      "text2": "MRI",
+      "p2": "CT",
+      "p3": "X-ray",
+      "text3": "1.5 Tesla / up to 200 kg",
+      "text4": "3D/4D recording of the study",
+      "text5": "MR mammography",
+      "text6": "Whole body MRI in 1.5 hours",
+      "text7": "MRI of joints"
+    },
+    "sec8": {
+      "text1": "Our advantages",
+      "text2": "Professionalism",
+      "text3": "Wide range of services",
+      "text4": "Modern equipment",
+      "text5": "High level of service",
+      "text6": "Ambulance and home help service",
+      "text7": "Therapeutic and surgical hospitals",
+      "text8": "High level of service",
+      "text9": "Ambulance and home help service",
+      "text10": "Therapeutic and surgical hospitals",
+      "text11": "Here you will find modern equipment and advanced treatment techniques that allow you to achieve the best results. We value every patient and strive to create a cozy and friendly atmosphere so that you feel comfortable and confident while visiting our center and advanced treatment techniques that allow you to achieve the best results. We value every patient and strive to create and advanced treatment techniques that allow you to achieve the best results. We value every patient and strive to create",
+      "text12": "patients"
+    },
+    "sec9": {
+      "text1": "Our partners"
+    },
+    "sec10": {
+      "text1": "Our licenses"
+    },
+    "sec11": {
+      "text1": "Our contacts.",
+      "text2": "Address",
+      "p": "Tomsk, st. 79 Guards Division, 6",
+      "text3": "Telephone.",
+      "text4": "8 (3822) 50-00-49",
+      "text5": "Mail",
+      "text6": "info@docnear.ru",
+      "btn": "Make an appointment."
+    }
+  },
+  "vrachi": {
+    "sec1": {
+      "text1": "Doctors"
+    },
+    "sec2": {
+      "text1": "Ivanov Ivan Ivanovich",
+      "text2": "Urologist",
+      "btn1": "Make an appointment",
+      "btn2": "More details",
+      "btn3": "Show more"
+    },
+    "sec3": {
+      "text1": "Would you like us to call you back?",
+      "text2": "Leave a request and we will answer all your questions in detail!",
+      "text3": "Your full name",
+      "text4": "Phone number",
+      "text5": "Ivanov Ivan Ivanovich",
+      "btn": "Request a call",
+      "text6": "By clicking on the Request a call button you agree to the privacy policy"
+    }
+  }
+}
